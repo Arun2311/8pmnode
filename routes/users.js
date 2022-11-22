@@ -74,7 +74,7 @@ router.put('/:userID', async function(req, res, next) {
        await User.findByIdAndDelete(req.params.userID)
       res.json({
         SUCESS:true,
-        data:" delete sucess"
+        data:" delete sucesshgsdahgchdgchdschsdhcsdghchgdskcdshgchj hjdvocisdfkjvs"
       })
       }catch(e){
         res.json({
